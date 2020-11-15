@@ -1,2 +1,15 @@
-# UnyieldingTrilobite.github.io
-%%%
+# 科学老师语录自动机
+
+## 意义
+
+科学老师幽默风趣，在课上带给了我们许许多多的快乐，这些快乐使得我们对于知识的记忆能够更加牢固。
+
+现在，UT 尝试着复原一部分这些快乐。
+
+## 调用方法
+
+[here](UnyieldingTrilobite.github.io)
+
+## 贡献方法
+
+由于 UT 不是很会 pr，所以请直接提 issue。
