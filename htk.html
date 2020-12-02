@@ -1,0 +1,16 @@
+<html><head></head><body>
+<script>
+var yulu_all=[
+        '有的同学啊，有冒险精神！我讲啊，表演节目，一开始就没完没了。——《黄语》',
+        '这么兴奋啊？又不听了，一分钟都静不下来。——《黄语》',
+        '有的同学——肯定是有——自己产生恶心的东西。我不会给你们机会吃点。诶，对，交上来。傻不傻，有什么恶心的？无知了，我就是要你们多看这些。——《黄语》',
+        '我已经讲过啦啊，以后再这样，把《实验守则》抄一遍，抄个二十遍。给大家一分钟时间，快！——《黄语》'
+];
+var data=yulu_all[Math.floor(Math.random()*yulu_all.length)];
+  var arr=data.split("——").slice(0,-1).join("——");
+  ducument.write("<pre style=\"word-wrap: break-word; white-space: pre-wrap;\">");
+  document.write("{\"hitokoto\":\"");
+  document.write(arr);
+  document.write("\"from:\"《秉笔录》\"}</pre>");
+</script>
+</body></html>
