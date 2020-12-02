@@ -8,7 +8,7 @@ var yulu_all=[
 ];
 var data=yulu_all[Math.floor(Math.random()*yulu_all.length)];
   var arr=data.split("——").slice(0,-1).join("——");
-  ducument.write("<pre style=\"word-wrap: break-word; white-space: pre-wrap;\">");
+  document.write("<pre style=\"word-wrap: break-word; white-space: pre-wrap;\">");
   document.write("{\"hitokoto\":\"");
   document.write(arr);
   document.write("\"from:\"《秉笔录》\"}</pre>");
